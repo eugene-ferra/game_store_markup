@@ -1,0 +1,45 @@
+.promo-game {
+  background: url("../images/brawl-bg.jpg") center (center/cover) no-repeat;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  &--clash-of-clans{
+    background: url("../images/clash-of-clans-bg-mob.jpg") center (center/cover) no-repeat;
+  }
+  &--clash-royale{
+    background: url("../images/clash-royale-bg-mobile.jpg") center (center/cover) no-repeat;
+  }
+  &--standoff{
+    background: url("../images/standoff-bg-mobile.jpg") center (center/cover) no-repeat;
+  }
+  &--roblox{
+    background: url("../images/roblox-bg-mobile.jpg") center (center/cover) no-repeat;
+  }
+  &--genshin{
+    background: url("../images/genshin-bg-mobile.jpg") center (center/cover) no-repeat;
+  }
+  &--free-fire{
+    background: url("../images/free-fire-bg-mobile.jpg") center (center/cover) no-repeat;
+  }
+  &__inner {
+    width: 100%;
+    display: flex;
+    background-color: rgba(16, 36, 65, 0.5);
+    padding: 5px 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-size: 32px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 900;
+    margin-left: 20px;
+  }
+  &__img{
+    height: 64px;
+    max-width: 64px;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,50 @@
+.button {
+  display: block;
+  background: #0071da;
+  border: 1px solid #0071da;
+  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 15px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: #0061bc;
+    border-radius: 20px;
+  }
+  &--brawl {
+    background: #ffbe1e;
+    box-shadow: 0px 10px 10px rgba(0, 113, 218, 0.25);
+    border-radius: 8px;
+    padding: 5px 90px 5px 135px;
+    transform: skew(-20deg);
+    border: none;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 10px;
+      left: 100px;
+      width: 24px;
+      height: 24px;
+      background: url("../images/icons/back-arrow.png") center (center/contain)
+        no-repeat;
+      display: block;
+      transform: skew(20deg);
+      transition: 0.3s;
+    }
+    &:hover {
+      background: #ffbe1e;
+      border-radius: 8px;
+      &::before {
+        left: 80px;
+      }
+    }
+  }
+ 
+}

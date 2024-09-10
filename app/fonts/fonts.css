@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Pusia Bold";
+    src: url("Pusia-Bold.woff") format("woff"),
+        url("Pusia-Bold.woff2") format("woff2"),
+        url("Pusia-Bold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("Alegreya.ttf") format("ttf");
+}
+
+
+

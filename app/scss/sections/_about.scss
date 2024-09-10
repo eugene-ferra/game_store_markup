@@ -1,0 +1,14 @@
+.about {
+  padding: 36px 0;
+  background: #e9ebef;
+  box-shadow: 0px 5px 5px #d0d5dd;
+  &__title {
+    margin-bottom: 21px;
+  }
+  &__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #64748b;
+  }
+}

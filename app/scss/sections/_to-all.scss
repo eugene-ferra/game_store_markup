@@ -1,0 +1,15 @@
+.to-all{
+    padding: 20px 0;
+    background-color: #102441;
+    .container{
+        text-align: center;
+    }
+    &__link{
+        width: max-content;
+        margin: 0 auto;
+        span{
+            display: block;
+            transform: skew(20deg);
+        }
+    }
+}

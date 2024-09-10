@@ -1,0 +1,43 @@
+.top-donaters{
+    padding: 43px 0 50px;
+    margin-bottom: 5px;
+    box-shadow: 0px 5px 5px #d0d5dd;
+    &__title{
+        margin-bottom: 22px;
+    }
+}
+
+
+.table{
+    margin: 0 auto;
+    max-width: 594px;
+    width: 100%;
+    text-align: left;
+    td{
+        padding: 5px 30px;
+    }
+    #no-image{
+        padding-left: 92px;
+    }
+    &__row{
+        text-align: left;
+        padding: 5px 30px;
+        background-color: #fff;
+        padding: 5px 30px;
+        &:nth-child(odd){
+            background-color: #E9EBEF;
+        }
+        &:first-child{
+            background-color: #64748B;;
+            color: #fff;
+        }
+    }
+    img{
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        object-fit: cover;
+        margin-right: 27px;
+    }
+
+}

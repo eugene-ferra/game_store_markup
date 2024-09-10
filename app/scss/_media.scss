@@ -1,0 +1,298 @@
+@media (max-width: 1400px) {
+  .container {
+    width: 1110px;
+  }
+  .review-block__images {
+    overflow-x: scroll;
+    padding-bottom: 10px;
+    &::-webkit-scrollbar {
+      height: 3px;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: #d0d0d0;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #64748b;
+    }
+  }
+  .footer__nav {
+    margin-left: 30px;
+  }
+  .sell-block .container {
+    padding: 0 100px;
+  }
+  .shop__inner{
+    justify-content: start;
+  }
+  .shop__inner--big{
+    justify-content: start;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 910px;
+  }
+  .menu__item + .menu__item {
+    margin-left: 15px;
+  }
+  .search {
+    width: 250px;
+  }
+  .game-card {
+    width: 165px;
+  }
+  .game-card__img {
+    height: 165px;
+  }
+  .donate-card {
+    width: 200px;
+  }
+  .big-donates__inner {
+    gap: 25px;
+  }
+  .donate-card__img {
+    height: 200px;
+  }
+  .footer .container {
+    padding-right: 0;
+  }
+  .sell-block .container {
+    padding: 0 15px;
+  }
+  .mini-card__prompt--active {
+    width: 130px;
+    bottom: 55px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 690px;
+  }
+  .burger {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .mobile-search {
+    display: block;
+  }
+  .mobile-search .search {
+    display: block;
+  }
+  .table {
+    margin-left: 0;
+  }
+  .footer .container {
+    flex-direction: column;
+  }
+  .footer__about {
+    order: 2;
+  }
+  .footer__nav {
+    margin: 0 0 45px;
+  }
+  .footer__about {
+    width: 100%;
+    text-align: center;
+  }
+  .promo-game {
+    height: 180px;
+  }
+  .shop__inner {
+    grid-template-columns: repeat(6, 120px);
+    grid-auto-columns: 120px;
+    &--big {
+      grid-template-columns: repeat(6, 170px);
+      grid-template-rows: repeat(2, auto);
+      grid-auto-columns: 160px;
+      grid-auto-flow: column;
+      gap: 23px;
+    }
+  }
+  .mini-card {
+    width: 120px;
+    &__img-wrapper {
+      height: 120px;
+    }
+    &__price {
+      font-size: 16px;
+    }
+    &--locked {
+      .mini-card__price {
+        padding: 10px 40px 10px 5px;
+      }
+    }
+    .popular {
+      top: 84px;
+      font-size: 12px;
+    }
+    &__price {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 520px;
+  }
+  .games__inner {
+    gap: 20px;
+  }
+  .donate-card__info {
+    padding: 5px 10px;
+  }
+  .sell-block__text {
+    flex-direction: column;
+  }
+  .footer__nav {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+  .promo-game {
+    background: url("../images/brawl-bg-mini.jpg") center (center/cover)
+      no-repeat;
+    &--clash-of-clans {
+      background: url("../images/clash-of-clans-bg-mob.jpg") center
+        (center/cover) no-repeat;
+    }
+    &--clash-royale {
+      background: url("../images/clash-royale-bg-mobile.jpg") center
+        (center/cover) no-repeat;
+    }
+    &--standoff {
+      background: url("../images/standoff-bg-mobile.jpg") center
+        (center/cover) no-repeat;
+    }
+    &--roblox {
+      background: url("../images/roblox-bg-mobile.jpg") center
+        (center/cover) no-repeat;
+    }
+    &--genshin {
+      background: url("../images/genshin-bg-mobile.jpg") center
+        (center/cover) no-repeat;
+    }
+    &--free-fire {
+      background: url("../images/free-fire-bg-mobile.jpg") center
+        (center/cover) no-repeat;
+    }
+  }
+  .mini-card {
+    &--locked {
+      .mini-card__price {
+        padding: 10px 40px 10px 15px;
+        &::after {
+          background-image: url("../images/icons/lock-mobile.png");
+          width: 28px;
+          height: 28px;
+          right: -10px;
+        }
+      }
+    }
+  }
+  .mini-card, .free-fire--card, .clash-royale--card, .clash-of-clans--card, .standoff--card, .roblox--card, .genshin--card{
+    &:hover{
+      transform: translateY(0);
+    }
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .footer__about {
+    text-align-last: left;
+  }
+  .table td {
+    padding: 5px 8px;
+  }
+  .donate-card {
+    width: 165px;
+  }
+  .donate-card__img {
+    height: 165px;
+  }
+  .games__inner {
+    gap: 12px;
+  }
+  .big-donates__inner {
+    gap: 12px;
+  }
+  .mobile-menu {
+    width: 80%;
+  }
+  .sell-block__btn {
+    width: calc(100% - 50px);
+  }
+  .promo-game {
+    height: 90px;
+  }
+  .promo-game__title {
+    font-size: 27px;
+    margin-left: 15px;
+  }
+  .button--brawl {
+    padding: 5px 80px 5px 125px;
+    &::before {
+      left: 90px;
+    }
+  }
+  .shop {
+    margin: 0 0px 50px;
+    &__inner {
+      padding: 20px;
+    }
+    &__title span {
+      font-size: 18px;
+    }
+    #box {
+      &::after {
+        display: none;
+      }
+    }
+  }
+  .shop--brawl{
+    margin: 0 10px 50px;
+  }
+  .no-product {
+    &--vertical{
+      .container{
+        align-items: center;
+      }
+      .no-product__title{
+        text-align: center;
+      }
+      .no-product__info{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        justify-content: center;
+      }
+      .no-product__img{
+        max-width: calc(100% - 145px);
+        height: auto;
+      }
+    }
+    &__title {
+      font-size: 32px;
+      line-height: 40px;
+      margin-bottom: 10px;
+    }
+    &__img {
+      margin-right: 0;
+      max-width: 160px;
+    }
+    &__btn {
+      &::before {
+        display: none;
+      }
+      padding: 15px 20px 18px;
+      font-size: 18px;
+    }
+  }
+}
